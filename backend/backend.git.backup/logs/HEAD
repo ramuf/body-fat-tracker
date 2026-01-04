@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 ee08a82095e0dbc8cd5b5534046e76409de9f6cc ramuf <ramusga@gmail.com> 1764159587 +0000	commit (initial): Refactor code structure for improved readability and maintainability
+ee08a82095e0dbc8cd5b5534046e76409de9f6cc a25da51d40e1b9ba4e9ab8520fd12275b07d6ca8 ramuf <ramusga@gmail.com> 1764161975 +0000	commit: feat: Initialize database configuration and user authentication
+a25da51d40e1b9ba4e9ab8520fd12275b07d6ca8 2c778fe4f9ccb8be84825373681a32e68769db59 ramuf <ramusga@gmail.com> 1764162447 +0000	commit: feat: Add BodyMetric model and endpoints for managing body metrics
+2c778fe4f9ccb8be84825373681a32e68769db59 7a67bdc9636348d71e7f42c24f28248b14cd5fad ramuf <ramusga@gmail.com> 1764164747 +0000	commit: feat: Enhance security functions with SHA256 pre-hashing and update CORS middleware configuration
+7a67bdc9636348d71e7f42c24f28248b14cd5fad 8b932c74fc8db1cd2598fb050687fd388f445502 ramuf <ramusga@gmail.com> 1764170905 +0000	commit: feat: Add user profile fields and update user information endpoint
+8b932c74fc8db1cd2598fb050687fd388f445502 cfb13eccafe42e9c72117390a96c5ee1beabdc9d ramuf <ramusga@gmail.com> 1764171818 +0000	commit: feat: Add bone mass field to BodyMetric model and update migration script
+cfb13eccafe42e9c72117390a96c5ee1beabdc9d 26e80f5d814e66365fc313f5b2a7591e36306cd6 ramuf <ramusga@gmail.com> 1764174044 +0000	commit: feat: Add ffmi and bmr fields to BodyMetric model and create migration script
+26e80f5d814e66365fc313f5b2a7591e36306cd6 f1f596485e23f5627872532a56be270122c539a6 ramuf <ramusga@gmail.com> 1767536888 +0000	commit: feat: Add user signup endpoint and recalculate metrics for body metrics
