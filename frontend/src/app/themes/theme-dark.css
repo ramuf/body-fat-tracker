@@ -1,0 +1,65 @@
+.dark {
+  /* Modern Professional Dark Theme - Deep Indigo Base, Calm Cyan Accents */
+  --background: oklch(0.06 0.02 260); /* deep indigo/charcoal */
+  --foreground: oklch(0.95 0.02 260); /* warm off-white */
+
+  --card: oklch(0.12 0.02 260); /* slightly lighter surface */
+  --card-foreground: var(--foreground);
+
+  --popover: oklch(0.11 0.02 260);
+  --popover-foreground: var(--foreground);
+
+  /* Primary: calming cyan/teal for actions, links, and highlights */
+  --primary: oklch(0.60 0.17 180);
+  --primary-foreground: oklch(0.06 0.01 260);
+
+  /* Secondary: soft indigo for complementary accents */
+  --secondary: oklch(0.58 0.12 270);
+  --secondary-foreground: var(--foreground);
+
+  --muted: oklch(0.13 0.02 260);
+  --muted-foreground: oklch(0.72 0.03 260);
+
+  /* Accent: subtle warm accent for CTAs & attention */
+  --accent: oklch(0.64 0.14 40); /* warm amber for contrast */
+  --accent-foreground: var(--foreground);
+
+  --destructive: oklch(0.54 0.18 25);
+  --destructive-foreground: var(--foreground);
+
+  --border: oklch(0.18 0.02 260);
+  --input: oklch(0.14 0.02 260);
+  --ring: oklch(0.60 0.16 180);
+
+  /* Chart palette — reduced brightness, high readability */
+  --chart-1: oklch(0.60 0.17 180); /* cyan */
+  --chart-2: oklch(0.62 0.12 230); /* indigo */
+  --chart-3: oklch(0.66 0.14 150); /* green */
+  --chart-4: oklch(0.60 0.12 300); /* deep purple */
+  --chart-5: oklch(0.66 0.12 35);  /* warm amber */
+
+  --chart-main: var(--chart-1);
+  --chart-range-area: rgba(64, 205, 197, 0.12);
+  --chart-range-label: #40cdd2;
+
+  /* Sidebar — slightly darker than top-level background */
+  --sidebar: oklch(0.05 0.02 260);
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+  --sidebar-accent: var(--secondary);
+  --sidebar-accent-foreground: var(--secondary-foreground);
+  --sidebar-border: oklch(0.14 0.02 260);
+  --sidebar-ring: color-mix(in srgb, var(--primary) 14%, transparent);
+
+  /* Modern subtle glass and glow effects for interactions */
+  --glass-highlight: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(64, 205, 197, 0.03));
+  --glow: 0 10px 30px rgba(64, 205, 197, 0.06);
+
+  /* Accessibility helpers */
+  --accent-shadow: 0 8px 28px rgba(255, 166, 64, 0.06);
+
+  /* Optional: more depth tokens for components */
+  --elevation-1: rgba(4,6,12,0.6);
+  --elevation-2: rgba(9,12,20,0.8);
+}

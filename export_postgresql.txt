@@ -1,0 +1,8 @@
+pg_dump -U postgres -p 5433 --clean --if-exists body_fat_tracker > backup.sql
+pg_restore -U postgres -h 192.168.1.218 -p 5433 body_fat_tracker backup.sql
+psql -U postgres -h 192.168.1.218 -p 5432 bodyfat_tracker < backup.sql
+
+pg_dump -U username -h hostname -a database_name > data.sql
+
+
+curl -i -X POST 'http://192.168.1.218:8001/api/v1/login/access-token' -H 'Content-Type: application/x-www-form-urlencoded' -d 'username=ramusga@gmail.com&password=Nunalex#096712'

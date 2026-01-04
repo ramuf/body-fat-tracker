@@ -1,0 +1,90 @@
+.sunrise {
+  /* Sunrise Bloom: warm, uplifting gradient with soft glass highlights */
+  --background: #fff9f7; /* soft warm base */
+  --foreground: #2c2c2c; /* deep but soft text */
+
+  --card: rgba(255,255,255,0.86);
+  --card-foreground: var(--foreground);
+
+  --popover: rgba(255,255,255,0.94);
+  --popover-foreground: var(--foreground);
+
+  --primary: #ff6b6b; /* coral */
+  --primary-foreground: #ffffff;
+
+  --secondary: #ffb86b; /* warm gold */
+  --secondary-foreground: #041722;
+
+  --muted: #fff2ee;
+  --muted-foreground: #7a6b6b;
+
+  --accent: #9b5cff; /* lavender */
+  --accent-foreground: #fff;
+
+  --destructive: #ff4d4f;
+  --destructive-foreground: #fff;
+
+  --border: rgba(10,10,12,0.04);
+  --input: rgba(10,10,12,0.03);
+  --ring: rgba(255,106,111,0.18);
+
+  /* Chart Colors */
+  --chart-1: #ff6b6b; /* coral */
+  --chart-2: #ffb86b; /* gold */
+  --chart-3: #7efc97; /* mint */
+  --chart-4: #8b5cf6; /* violet */
+  --chart-5: #ffd377; /* soft amber */
+
+  --chart-main: #ff6b6b;
+  --chart-range-area: rgba(255,107,107,0.08);
+  --chart-range-label: #ff6b6b;
+
+  --sidebar: #fffaf8;
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: #ff6b6b;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #ffb86b;
+  --sidebar-accent-foreground: #041722;
+  --sidebar-border: rgba(10,10,12,0.03);
+  --sidebar-ring: rgba(255,106,111,0.12);
+
+  --glass-highlight: linear-gradient(90deg, rgba(255,107,107,0.06), rgba(255,184,96,0.04));
+  --sunrise-bg: linear-gradient(180deg, rgba(255, 231, 218, 0.18), rgba(255, 255, 255, 0.02));
+  --glow: 0 10px 40px rgba(255,107,107,0.06);
+}
+
+/* Sunrise-specific interactions */
+.sunrise body {
+  background-image: var(--sunrise-bg);
+  background-blend-mode: overlay;
+}
+
+.sunrise .btn-primary {
+  box-shadow: 0 10px 30px color-mix(in srgb, var(--primary) 18%, transparent), var(--glow);
+}
+
+.sunrise .btn-primary:hover {
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 18px 50px color-mix(in srgb, var(--primary) 22%, transparent), 0 6px 18px color-mix(in srgb, var(--secondary) 12%, transparent);
+}
+
+.sunrise .btn-primary:focus-visible {
+  box-shadow: 0 0 0 6px color-mix(in srgb, var(--ring) 20%, transparent), var(--glow);
+}
+
+.sunrise .card {
+  box-shadow: 0 12px 30px rgba(255, 134, 120, 0.04);
+  position: relative;
+  overflow: hidden;
+}
+
+.sunrise .card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-160%);
+  background: linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,195,156,0.03), rgba(255,255,255,0.02));
+  animation: sunriseFlow 14s linear infinite;
+  pointer-events: none;
+  opacity: 0.9;
+}

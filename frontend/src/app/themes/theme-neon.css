@@ -1,0 +1,50 @@
+.neon {
+  /* Neon / Cyberpunk Theme */
+  --background: oklch(0.1 0.02 260); /* Very Dark Blue */
+  --foreground: oklch(0.95 0.02 260);
+  
+  --card: oklch(0.15 0.03 260);
+  --card-foreground: oklch(0.95 0.02 260);
+  
+  --popover: oklch(0.15 0.03 260);
+  --popover-foreground: oklch(0.95 0.02 260);
+  
+  --primary: oklch(0.7 0.2 330); /* Neon Pink */
+  --primary-foreground: oklch(0.1 0.02 260);
+  
+  --secondary: oklch(0.2 0.05 260);
+  --secondary-foreground: oklch(0.95 0.02 260);
+  
+  --muted: oklch(0.2 0.03 260);
+  --muted-foreground: oklch(0.7 0.05 260);
+  
+  --accent: oklch(0.2 0.05 260);
+  --accent-foreground: oklch(0.95 0.02 260);
+  
+  --destructive: oklch(0.6 0.2 20);
+  --destructive-foreground: oklch(0.95 0.02 260);
+  
+  --border: oklch(0.2 0.04 260);
+  --input: oklch(0.2 0.04 260);
+  --ring: oklch(0.7 0.2 330);
+  
+  /* Chart Colors */
+  --chart-1: oklch(0.7 0.2 330); /* Pink */
+  --chart-2: oklch(0.65 0.18 280); /* Purple */
+  --chart-3: oklch(0.6 0.18 240); /* Blue */
+  --chart-4: oklch(0.75 0.15 180); /* Cyan */
+  --chart-5: oklch(0.8 0.15 50); /* Orange */
+  
+  --chart-main: oklch(0.7 0.2 330);
+  --chart-range-area: rgba(255, 102, 196, 0.15);
+  --chart-range-label: #ff66c4;
+  
+  --sidebar: oklch(0.1 0.02 260);
+  --sidebar-foreground: oklch(0.95 0.02 260);
+  --sidebar-primary: oklch(0.7 0.2 330);
+  --sidebar-primary-foreground: oklch(0.1 0.02 260);
+  --sidebar-accent: oklch(0.2 0.05 260);
+  --sidebar-accent-foreground: oklch(0.95 0.02 260);
+  --sidebar-border: oklch(0.2 0.04 260);
+  --sidebar-ring: oklch(0.7 0.2 330);
+}

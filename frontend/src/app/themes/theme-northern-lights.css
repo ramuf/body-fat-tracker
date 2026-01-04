@@ -1,0 +1,61 @@
+.northern-lights {
+  /* Northern Lights: Ethereal, Magical, Dancing Aurora Borealis */
+  --background: oklch(0.14 0.04 240); /* Deep twilight blue */
+  --foreground: oklch(0.96 0.01 200);
+  
+  --card: oklch(0.18 0.05 250);
+  --card-foreground: oklch(0.96 0.01 200);
+  
+  --popover: oklch(0.18 0.05 250);
+  --popover-foreground: oklch(0.96 0.01 200);
+  
+  --primary: oklch(0.68 0.22 160); /* Aurora Green */
+  --primary-foreground: oklch(0.14 0.04 240);
+  
+  --secondary: oklch(0.65 0.22 280); /* Aurora Purple */
+  --secondary-foreground: oklch(0.96 0.01 200);
+  
+  --muted: oklch(0.22 0.04 250);
+  --muted-foreground: oklch(0.68 0.04 220);
+  
+  --accent: oklch(0.72 0.2 320); /* Aurora Pink */
+  --accent-foreground: oklch(0.14 0.04 240);
+  
+  --destructive: oklch(0.65 0.22 30);
+  --destructive-foreground: oklch(0.96 0.01 200);
+  
+  --border: oklch(0.28 0.08 250);
+  --input: oklch(0.22 0.06 250);
+  --ring: oklch(0.68 0.22 160);
+  
+  /* Chart Colors - Dancing Aurora Palette */
+  --chart-1: oklch(0.68 0.22 160); /* Emerald Aurora */
+  --chart-2: oklch(0.72 0.2 320); /* Pink Aurora */
+  --chart-3: oklch(0.65 0.22 280); /* Purple Aurora */
+  --chart-4: oklch(0.7 0.18 190); /* Cyan Aurora */
+  --chart-5: oklch(0.75 0.18 50); /* Gold Aurora */
+  
+  --chart-main: oklch(0.68 0.22 160);
+  --chart-range-area: rgba(87, 242, 135, 0.12);
+  --chart-range-label: #57f287;
+  
+  --sidebar: oklch(0.16 0.05 245);
+  --sidebar-foreground: oklch(0.96 0.01 200);
+  --sidebar-primary: oklch(0.68 0.22 160);
+  --sidebar-primary-foreground: oklch(0.14 0.04 240);
+  --sidebar-accent: oklch(0.22 0.06 250);
+  --sidebar-accent-foreground: oklch(0.96 0.01 200);
+  --sidebar-border: oklch(0.28 0.08 250);
+  --sidebar-ring: oklch(0.68 0.22 160);
+  
+  /* Aurora-specific effects */
+  --aurora-shimmer: linear-gradient(120deg, 
+    rgba(87, 242, 135, 0.15) 0%, 
+    rgba(168, 85, 247, 0.15) 25%, 
+    rgba(236, 72, 153, 0.15) 50%, 
+    rgba(59, 130, 246, 0.15) 75%, 
+    rgba(87, 242, 135, 0.15) 100%);
+  --aurora-glow: 0 0 40px rgba(87, 242, 135, 0.3), 
+                 0 0 80px rgba(168, 85, 247, 0.2),
+                 0 4px 20px rgba(0, 0, 0, 0.4);
+}

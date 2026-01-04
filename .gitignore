@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+.env
+backend/.venv/
+*.sqlite3
+
+# Node
+node_modules/
+.next/
+dist/
+.turbo/
+npm-debug.log*
+yarn-error.log*
+
+# Docker / builds
+*.tar
+*.log
+docker-compose.override.yml
+
+# OS / misc
+.DS_Store
+Thumbs.db
+.vscode/
